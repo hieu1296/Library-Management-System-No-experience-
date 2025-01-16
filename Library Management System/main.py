@@ -35,13 +35,13 @@ if __name__ == "__main__":
 
 
 
-    # Admin.addBook("datnguBook", "datlo","Available", "28/10")
-    # Admin.addBook("datgay", "thuangigachad","Available", "13/10")
-    # Admin.addBook("datoccacBook", "datlo","Available", "28/10")
+    # Admin.addBook("datBook", "datlo","Available", "28/10")
+    # Admin.addBook("datgiga", "thuangigachad","Available", "13/10")
+    # Admin.addBook("datkcBook", "datlo","Available", "28/10")
 
-    Admin.addBook("datnguBook", "datlo","Available", "28/10")
-    Admin.addBook("datgay", "datlo","Available", "13/10")
-    Admin.addBook("datoccacBook", "datlo","Available", "28/10")
+    Admin.addBook("datBook", "datlo","Available", "28/10")
+    Admin.addBook("datgiga", "thuangigachad","Available", "13/10")
+    Admin.addBook("datkcBook", "datlo","Available", "28/10")
     Admin.addBook("datmegenshin", "datlo","Available", "28/10")
 
     UserSample = lib.registeredUsers[(1, 'dat')] if (1, 'dat') in lib.registeredUsers else None
